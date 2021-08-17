@@ -6,6 +6,10 @@ body {
   background-color: rgb(224,227, 220);
 }
 
+h1 {
+  text-align: center;
+}
+
 .App {
   display: flex;
   justify-content: center;
