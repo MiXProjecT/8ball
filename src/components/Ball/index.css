@@ -1,6 +1,6 @@
 .ball {
-    width: 600px;
-    height: 600px;
+    width: 60vh;
+    height: 60vh;
     border-radius: 50%;
     background: radial-gradient(farthest-corner at 40px 40px, #fff 0%, #F5F5DC 15%);
 
@@ -17,7 +17,7 @@
 
 .answer {
     text-align: center;
-    font-size: 30px;
+    font-size: 3vh;
     color: white;
     width: 38%;
 }
