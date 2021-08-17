@@ -1,0 +1,51 @@
+.ball {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(farthest-corner at 40px 40px, #fff 0%, #F5F5DC 15%);
+
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shake {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+}
+
+.answer {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    width: 38%;
+}
+
+.square {
+    background-color: rgb(121,85,59);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    width: 65%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
